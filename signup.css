@@ -1,3 +1,15 @@
+header{
+    margin : 0px;
+    padding : 5px;
+    background : rgba(29, 21, 80, 0.8);
+    color : white;
+    text-align : right;
+    font-family: 'Courier New', Courier, monospace;
+}
+header a {
+    text-decoration: none;
+    color : white;
+}
 body{
 
     margin:0px;
@@ -7,11 +19,12 @@ body{
 .signup_box{
     width:500px;
     padding:20px;
+    margin-bottom: 50px;
     position : absolute;
-    top:50%;
+    top:70%;
     left:50%;
     transform: translate(-50%,-50%);
-    background: rgba(29, 21, 80, 1);
+    background: rgba(29, 21, 80, 0.5);
     border-radius: 25px;
     text-align:center;
     color : white;
@@ -19,7 +32,7 @@ body{
 .signup_box input[type="email"], .signup_box input[type="password"],
 .signup_box input[type="number"], .signup_box select {
     border:0px;
-    background:rgba(29, 21, 80, 1 );
+    background:rgba(29, 21, 80, 0.5 );
     display : block;
     margin : 10px auto;
     width:150px;

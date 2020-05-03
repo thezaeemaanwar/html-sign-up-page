@@ -5,32 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>signup-TTS</title>
+    <script>
+        
+    </script>
     <link rel="stylesheet" href="signup.css"/>
 </head>
 <body>
     <header>
-
+        <h3>CLE UET | <a href ="Home.html">Home </a> | <a href = "login page.html">Login</a> | <a href = "signup page.html"> Sign_up </a></h3>
     </header>
     <form class = "signup_box" action ="signup page.html" method = "POST">
+        <form action = "signup.php" method="POST" >
         <h1>SIGN-UP</h1>
-        Enter your email <input type = "email" placeholder="example:someone@gmail.com">
-        Create a password <input type = "password" placeholder="password">
+        Enter your email <input type = "email" placeholder="example:someone@gmail.com" name = "email">
+        Create a password <input type = "password" placeholder="password" name ="password">
         Select Mother Tongue 
-        <select>
+        <select name = "mother_tongue">
             <option>Urdu</option>
             <option>English</option>
             <option>Punjabi</option>
             <option>Pashto</option>
         </select> 
         Select your age 
-        <input type="number" placeholder="age" min="18" max="40">
-        Listner type
-        <select>
+        <input type="number" placeholder="age" min="18" max="40" name="age">
+        Listner type 
+        <select name="listner_type">
             <option>Naíve</option>
             <option>Expert</option>
         </select>
-        <p>Already have an account? <a href="login page.html">sign in</a></p>
+        <p>Already have an account? <a href="login page.html">login</a></p>
         <button>Sign-up</button>
     </form>
+</form>
 </body>
 </html>

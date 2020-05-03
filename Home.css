@@ -1,0 +1,18 @@
+header a {
+    text-decoration: none;
+    color : white;
+}
+header{
+    margin : 0px;
+    padding : 5px;
+    background : rgba(29, 21, 80, 0.8);
+    color : white;
+    text-align : right;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-image: url("rec\ 2.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 1400px;
+}
